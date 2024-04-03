@@ -1,5 +1,8 @@
+body {
+  background: grey;
+}
 .filters {
-  background: white;
+  background: grey;
   width: 100%;
 }
 .filters li {
@@ -23,7 +26,7 @@
   width: 300px;
   height: 350px;
   margin: 50px auto;
-  background: #fff;
+  background: white;
   border-radius: 5px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
@@ -70,7 +73,7 @@
   position: absolute;
   top: 20px;
   padding: 0;
-  background: #2cdfd3;
+  background: #1090c2;
 }
 .widget ul.position-left {
   left: -26px;
@@ -87,11 +90,11 @@
   color: #fff;
   cursor: pointer;
   text-align: center;
-  border-bottom: 1px solid #2cd5ca;
+  border-bottom: 1px solid #1090c2;
   transition: background-color 0.3s;
 }
 .widget ul li:hover > a {
-  background-color: #2cd5ca;
+  background-color: #1090c2;
 }
 .widget ul li:first-child > a {
   border-radius: 0 3px 0 0;
